@@ -1,6 +1,8 @@
 <Alloy>
 	<Window class="container">
         <View id="header">
+            <ImageView id="title" />
+            <Button id="photoButton" /> 
         </View>
 
 	</Window>

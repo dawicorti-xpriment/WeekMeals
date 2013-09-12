@@ -1,11 +1,39 @@
 ".container": {
-	backgroundColor:"white"
+    "navBarHidden": true,
+
+    "backgroundGradient":{
+        type:'linear',
+        colors:['#f1f1f1','#d1d1d1'],
+        startPoint:{x:0,y:0},
+        endPoint:{x:0,y:'100%'},
+        backFillStart:false
+    }
+
 },
 
 "#header": {
-	left: 0,
-    top: 0,
-    width: "100%",
-	height: 91,
-    backgroundImage: '/images/header_bg.png'
-} 
+	"left": 0,
+    "top": 0,
+    "width": "100%",
+	"height": 47,
+    "backgroundColor": "black",
+    "backgroundImage": "/images/header_bg.png"
+}
+
+"#title": {
+    "left": 9,
+    "top": 9,
+    "height": 25,
+    "width": Ti.UI.SIZE,
+    "image": "/images/header_title.png"
+}
+
+"#photoButton": {
+    "right": 3,
+    "top": 3,
+    "height": 38,
+    "width": 38,
+    "backgroundImage": "/images/photo_button.png",
+    "backgroundSelectedImage": "/images/photo_button_pressed.png"
+}
+
